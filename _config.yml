@@ -1,0 +1,385 @@
+# Site
+repository: dadosdelaplace/modern-resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Javier Álvarez Liébana
+title: Matemático, doctor en estadística, investigador y divulgador científico (mathematician, PhD Stats, Assistant Professor and scicomm)
+email: javalv09@ucm.es
+website: dadosdelaplace.com
+
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: dadosdelaplace
+github_username:  dadosdelaplace
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: javieralvarezliebana
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0003-0671-3856
+
+# Additional icon links
+additional_links:
+- title: Web
+  icon: fas fa-globe
+  url: https://www.dadosdelaplace.com
+- title: another link
+  icon: fas fa-envelope
+  url: https://cartasdelaplace.substack.com
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/me.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's <b>Javier Álvarez Liébana (@dadosdelaplace as scicomm)</b>, and I'm working as Assistant Professor at <b>Universidad Complutense
+  (Madrid, Spain)</b>. As well as researcher (PhD in Statistics at University of Granada, with stages at Universitè Pierre et Marie Curie), I also
+  have some experience making <b>software and courses in R language</b>. Currently, I'm a member of Spanish Research Project «Dinámica compleja e
+  inferencia no paramétrica» (PID2020-116587GB-I0).
+
+  I am most skilled in <mark>Statistics</mark>, <mark>data science</mark>, <mark>Functional Data</mark>, <mark>time series</mark> and
+  <mark>dataviz</mark>. My research can be found in [Google Scholar](https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&hl=es)
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: <i class="fas fa-laptop"></i> <span style="background-color:#CC3860;color:#FFFFFF">Web / Blog</span>
+        link: https://dadosdelaplace.com
+        additional_links:
+          - title: Github repository for codes
+            icon: fas fa-laptop
+            url: https://github.com/dadosdelaplace/dadosdelaplace.com
+      - layout: top-middle
+        title: <i class="fab fa-r-project"></i> Course <span style="background-color:#CC3860;color:#FFFFFF">Aprendiendo R sin morir en el intento</span> (introductory course of R programming)
+        link: https://aprendiendo-r-intro.netlify.app/
+        # link_text: Project Website
+        additional_links:
+          - title: Github repository for course
+            icon: fab fa-r-project
+            url: https://github.com/dadosdelaplace/cursoR_intro
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Learning R from scratch
+        description: | # this will include new lines to allow paragraphs
+          Curso de R en <mark>castellano</mark> para <mark>aprender R desde cero</mark> pensando para personas que no hayan tenido
+          contacto con la programación antes.
+      - layout: top-middle
+        title: <i class="fas fa-envelope"></i> Newsletter <span style="background-color:#CC3860;color:#FFFFFF">Cartas de Laplace</span> de datos y estadística (newsletter about statistics and data)
+        link: https://cartasdelaplace.substack.com
+        additional_links:
+          - title:  Github repository for codes
+            icon: fas fa-envelope
+            url: https://github.com/dadosdelaplace/cartas-de-laplace
+        quote: >
+          Newsletter about statistics, data and dataviz
+        description: | # this will include new lines to allow paragraphs
+          <mark>Newsletter</mark> en castellano para aprender de <mark>estadística, datos y dataviz</mark>.
+      - layout: top-middle
+        title: <i class="fab fa-twitter"></i> <span style="background-color:#CC3860;color:#FFFFFF">Divulgación estadística en Twitter</span> (scientific communication in Twitter)
+        link: https://twitter.com/dadosdelaplace
+        additional_links:
+          - title:  Github repository for codes
+            icon: fab fa-twitter
+            url: https://github.com/dadosdelaplace/hilostwitter
+        description: | # this will include new lines to allow paragraphs
+          <mark>Hilos de Twitter</mark> de <mark>divulgación estadística</mark> matemática y visualización de datos (threads about maths, statistics)
+      - layout: top-middle
+        title: <i class="fab fa-instagram"></i> <span style="background-color:#CC3860;color:#FFFFFF">Divulgación estadística en Instagram</span> (scientific communication in Instagram)
+        link: https://instagram.com/javieralvarezliebana
+        description: | # this will include new lines to allow paragraphs
+          <mark>Divulgación estadística en Instagram</mark> (scicomm about maths and statistics in Instagram)
+          
+  - title: Experience (experiencia académica/laboral)
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universidad Complutense (Madrid)
+        link: https://estudiosestadisticos.ucm.es/
+        link_text: Faculty of Statistics, Department of Statistics and Data Science
+        sub_title: Assistant Professor
+        caption: October 2021 - Present
+        quote: >
+          Currently, I'm working as <b>researcher and Assistant Professor</b> at Universidad Complutense (Madrid, Spain)
+        description: | # this will include new lines to allow paragraphs
+          I'm a member of the <mark>research group</mark> [«Data science and soft computing for social analytics and decision aid»](https://geografiaehistoria.ucm.es/grupos/grupo/509)
+      - layout: left
+        title: Regional Ministry of Health of Asturias
+        # link: https://estudiosestadisticos.ucm.es/
+        # link_text: Faculty of Statistics, Department of Statistics and Data Science
+        sub_title: Biostatistician
+        caption: October 2020 - September 2021
+        quote: >
+          I was worked as <b>biostatistician and data analyst</b> during the COVID-19 pandemic
+        description: | # this will include new lines to allow paragraphs
+          My work was the design of a <mark>predictive regional model for COVID-19 data</mark>, and their on-stream visualization developed
+          with <mark>R</mark> and <mark>Shiny</mark>.
+      - layout: left
+        title: University of Oviedo (Oviedo)
+        # link: https://digibug.ugr.es/handle/10481/52557
+        # link_text: PhD Thesis
+        sub_title: Contract Teacher (2018-2020) and Assistant Professor (2020-2021)
+        caption: September 2018 - August 2021
+        quote: >
+          I was lectured in many degrees (chemical engineering, software engineering, mathematics, etc)
+        description: | # this will include new lines to allow paragraphs
+            I worked as <mark>Contract Teacher</mark> from September 2018 to August 2020, and I got a position as <mark>Assistant Professor</mark> from
+            September 2020 to August 2021.
+      - layout: left
+        title: University of Granada (Granada)
+        link: https://digibug.ugr.es/handle/10481/52557
+        link_text: PhD Thesis
+        sub_title: PhD Student in Statistics
+        caption: September 2014 - July 2018
+        description: | # this will include new lines to allow paragraphs
+            I have presented my <mark>thesis dissertation</mark> on 24th July 2018, awarded with <mark>Cum Laude</mark>, and entitled
+            «Inference on linear processes in Hilbert and Banach spaces: statistical analysis of high-dimensional data»
+            under the supervision of M. D. Ruiz-Medina. I stayed at <mark>Universitè Pierre et Marie Curie (Paris)</mark> under the supervision of D. Bosq.
+      - layout: left
+        title: Línea Directa
+        sub_title: Insurance company
+        caption: March 2014 - August 2014
+        description: | # this will include new lines to allow paragraphs
+            I was working at Línea Directa at department of <mark>Big Data and and pricing</mark>, developed
+            with <mark>R</mark>, <mark>Hadoop</mark>, <mark>SQL</mark> and <mark>PIG</mark>
+
+  - title: Scientific articles, book chapters, conferences and software (artículos y contribuciones)
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of my main research contributions are now detailed:
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> A goodness-of-fit test for the functional linear model with functional response. 
+        Authors: E. García-Portugués, J. Álvarez-Liébana, G. Álvarez-Pérez and W. González-Manteiga. 
+        Journal: Scandinavian Journal of Statistics (doi: 10.1111/sjos.12486) 48, 502– 528, <mark>2021</mark>. 
+        [PDF](https://sci-hub.st/https://onlinelibrary.wiley.com/doi/abs/10.1111/sjos.12486)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> Prediction of air pollutants PM 10 by ARBX (1) processes. 
+        Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina. 
+        Journal: Stochastic Environmental Research and Risk Assessment (doi: 10.1007/s00477-019-01712-z) 33, 1721-1736, <mark>2019</mark>. 
+        [PDF](https://sci-hub.st/https://link.springer.com/article/10.1007/s00477-019-01712-z)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> A note on strong-consistency of componentwise ARH(1) predictors. 
+        Authors: M. D. Ruiz-Medina and J. Álvarez-Liébana. 
+        Journal: Statistics & Probability Letters (doi: 10.1016/j.spl.2018.09.004) 145, 224-228, <mark>2019</mark>. 
+        [PDF](https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0167715218303031)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> Strongly consistent autoregressive predictors in abstract Banach spaces. 
+        Authors: M. D. Ruiz-Medina and J. Álvarez-Liébana. Journal: Journal of Multivariate Analysis 
+        (doi: 10.1016/j.jmva.2018.08.001) 170, 186-201, <mark>2018</mark>. [PDF](https://sci-hub.st/10.1016/j.jmva.2018.08.001)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> Asymptotic properties of a component-wise ARH (1) plug-in predictor. 
+        Authors: J. Álvarez-Liébana, D. Bosq and M. D. Ruiz-Medina. Journal: Journal of Multivariate Analysis 
+        (doi: 10.1016/j.jmva.2016.11.009) 155, 12-34, <mark>2017</mark>. [PDF](https://sci-hub.st/10.1016/j.jmva.2016.11.009)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> The effect of the spatial domain in FANOVA models with ARH (1) error term. 
+        Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina. Journal: Statistics and Its Interface (doi: 10.4310/SII.2017.v10.n4.a7) 10, 607-628, <mark>2017</mark>. 
+        [PDF](https://sci-hub.st/https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0010/0004/a007/)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> Consistency of the plug-in functional predictor of the Ornstein–Uhlenbeck process in Hilbert and Banach spaces. 
+        Authors: J. Álvarez-Liébana, D. Bosq and M. D. Ruiz-Medina. Journal: Statistics & Probability Letters 
+        (doi: 10.1016/j.spl.2016.04.023) 117, 12-22, <mark>2016</mark>. [PDF](https://sci-hub.st/10.1016/j.spl.2016.04.023)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Journal Paper</span> Functional statistical classification of non-linear dynamics and random surfaces roughness in control systems. 
+        Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina. Journal: International Journal of Mathematical Models and methods in applied sciences.  
+        9, 1-20, <mark>2015</mark>. [PDF](https://www.researchgate.net/profile/Javier-Alvarez-Liebana/publication/282053030_Functional_statistical_classification_of_non-linear_dynamics_and_random_surfaces_roughness_in_control_systems/links/57d7cffc08ae601b39ae8dd4/Functional-statistical-classification-of-non-linear-dynamics-and-random-surfaces-roughness-in-control-systems.pdf)
+
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Software</span> goffda: Goodness-of-Fit Tests for Functional Data <mark>R package</mark> 
+        E. García-Portugués and J. Álvarez-Liébana <mark>2021</mark>. [CRAN](https://CRAN.R-project.org/package=goffda). [GITHUB](https://github.com/egarpor/goffda)
+
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Book Chapter</span> Goodness-of-fit tests for functional linear models based on integrated projections. 
+        Authors: E. García-Portugués, J. Álvarez-Liébana, G. Álvarez-Pérez and W. González-Manteiga. 
+        Book chapter In Aneiros, G., Horová, I., Hušková, M., and Vieu, P. (Eds.), 
+        Functional and High-Dimensional Statistics and Related Fields, 107–114, <mark>2020</mark>. Springer, Cham. doi: 10.1007/978-3-030-47756-1_15. 
+        [PDF](https://arxiv.org/pdf/2008.09885.pdf)
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Book Chapter</span> A diagonal componentwise approach for ARB(1) prediction. 
+        Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina. 
+        Book chapter In G. Aneiros, E. G. Bongiorno, R. Cao and P. Vieu (Eds.), 
+        Functional and High-Dimensional Statistics and Related Fields, 23–32, <mark>2017</mark>. Springer, Cham. doi: 10.1007/978-3-319-55846-2. 
+        [PDF](https://sci-hub.st/10.1007/978-3-319-55846-2)
+      - <span style="background-color: #3A81B9; color: #FFFFFF">PhD Thesis</span> Inference on linear processes in Hilbert and Banach spaces: statistical analysis of high-dimensional data.  
+        Authors: J. Álvarez-Liébana. Supervisor: M. D. Ruiz-Medina. Institution: University of Granada. <mark>2018</mark>. 
+        [PDF](https://digibug.ugr.es/handle/10481/52557) 
+
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: A goodness-of-fit test for functional time series with applications to diffusion processes. 
+        Congress: New Bridges between Mathematics and Data Science (NBMDS, Valladolid, Spain) <mark>2021</mark>. Authors: J. Álvarez-Liébana, A. López Perez, 
+        W. González-Manteiga and M. Febrero-Bande.
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: A goodness-of-fit test for the functional linear model with functional responses. 
+        Congress: 5th International Symposium on Nonparametric Statistics (ISNPS, Paphos, Cyprus) <mark>2020</mark>. Authors: J. Álvarez-Liébana, E. García-Portugués, 
+        G. Álvarez-Pérez and W. González-Manteiga.
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: On the inference of functional time series. 
+        Congress: 1st Regional Workshop of European young researchers in statistics (Paris, France) <mark>2018</mark>. Authors: J. Álvarez-Liébana.
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: Estimación fuertemente consistente de procesos autorregresivos,
+        con variables exógenas, en espacios de Banach abstractos. Congress: XXXVII Congreso Nacional de Estadística e Investigación Operativa 
+        (SEIO18, Oviedo, Spain) <mark>2018</mark>. Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina.
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: Strongly-consistent prediction of air pollutants PM10 by 
+        high-singular ARBX(1) processes. Congress: 2018 CRoNoS Summer Course and Workshop on Functional Data Analysis 
+        (COMPSTAT - CRONOS FDA 18, Iasi, Rumania) <mark>2018</mark>.  Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina.
+      - <span style="background-color: #FFF251">Invited Conference</span>. Title: Strong consistency results for the estimation and prediction of 
+        ARH(1) processes. Congress: Congreso Bienal de la Real Sociedad Matemática Española (RSME17, Zaragoza, Spain) <mark>2017</mark>. 
+        Authors: J. Álvarez-Liébana and M. D. Ruiz-Medina.
+        
+      - <span style="background-color: #FEBF6B">Organizing Committee</span> of «III International Workshop on Advances in Functional Data Analysis». 
+        May 23th-24th, <mark>2019</mark> – University of Cantabria (Castro Urdiales, Spain).  
+      - <span style="background-color: #FEBF6B">Organizing Committee</span> of «1st Spanish Young Statisticians and Operational Researchers Meeting». 
+        November 13th-15th, <mark>2017</mark> – IEMATH-GR (Granada, Spain).
+      - <span style="background-color: #FEBF6B">Organizing Committee</span> of «IX Jornadas de R». November 17th-18th, <mark>2017</mark> – University of Granada (Granada, Spain).
+      - <span style="background-color: #FEBF6B">Organizing Committee</span> of «I Jornadas de Investigadores en Formación: 
+        fomentando la interdisciplinariedad». May 20th, <mark>2016</mark> – University of Granada (Granada, Spain).
+      - <span style="background-color: #FEBF6B">Scientific Committee</span> of «I Jornadas de Investigadores en Formación: 
+        fomentando la interdisciplinariedad». May 20th, <mark>2016</mark> – University of Granada (Granada, Spain).
+        
+      [Google Scholar](https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&hl=es) - [ORCID](https://orcid.org/0000-0003-0671-3856) - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56584449600)
+  
+  - title: Scicomm work
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Part of my work as scicomm:
+      
+      - <span style="background-color: #FFF251">Twitter</span> Threads about statistics, maths and dataviz. [LINK](https://twitter.com/i/moment_maker/preview/1398580673221378049)
+      
+      - <span style="background-color: #FEBF6B">Instagram</span> «La historia de Sophie Germain» <mark>2021</mark> [LINK](https://www.instagram.com/p/CO02oxanalP/)
+      - <span style="background-color: #FEBF6B">Instagram</span> «Las 3M de la estadística: media, moda y mediana» <mark>2021</mark>[LINK](https://www.instagram.com/p/CQvsOmMFkmA/)
+      - <span style="background-color: #FEBF6B">Instagram</span> «¿Qué tienen en común las cigarras y los cubos de cerveza?» <mark>2021</mark> [LINK](https://www.instagram.com/p/CP8JJXKlI2T/)
+      - <span style="background-color: #FEBF6B">Instagram</span> «Sesgo del superviviente» <mark>2020</mark> [LINK](https://www.instagram.com/p/CGz1O7DFP8Q/)
+      - <span style="background-color: #FEBF6B">Instagram</span> «Ley de benford» <mark>2020</mark> [LINK](https://www.instagram.com/p/CHF5SW3lwpl/
+      
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Blog / Newsletter</span> «CARTA #4: correlación no implica causalidad...pero sí un Nobel» <mark>2021</mark> 
+        [LINK](https://cartasdelaplace.substack.com/p/carta-4)
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Blog / Newsletter</span> «CARTA #2: la importancia de visualizar datos» <mark>2021</mark> 
+        [LINK](https://cartasdelaplace.substack.com/p/carta-2)  
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Blog / Newsletter</span> «¿Qué lenguaje elegir? R, Python o Matlab: la batalla final» <mark>2021</mark> 
+        [LINK](https://www.dadosdelaplace.com/post/r-python/)
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Blog / Newsletter</span> «¿Qué relación hay entre los taxis y la Segunda Guerra Mundial?» <mark>2019</mark> 
+        [LINK](https://www.dciencia.es/taxis-matematicas-guerramundial/)
+        
+      - <span style="background-color: #CC3860; color: #FFFFFF">Youtube</span> <span style="background-color: #3D7E58; color: #FFFFFF">Talks</span> «Contando taxis, ganando guerras» <mark>2020</mark> 
+        [LINK](https://www.youtube.com/watch?v=1N-gM3m9yUI&t=749s)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Youtube</span> «Matemáticos, científicos, os necesitamos. Matemáticas contra el coronavirus» <mark>2020</mark> 
+        [LINK](https://www.youtube.com/watch?v=zfAp4BqJ670&t=15s)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Youtube</span> «TODAS las MATEMÁTICAS detrás del COVID-19 con Javier Álvarez Liébana» <mark>2020</mark> 
+        [LINK](https://www.youtube.com/watch?v=0IMB72QmXRs)  
+      <span style="background-color: #CC3860; color: #FFFFFF">Youtube</span> «¿Por qué es tan DIFÍCIL PREDECIR MODELOS MATEMÁTICOS en estos días?» <mark>2020</mark> 
+        [LINK](https://www.youtube.com/watch?v=W449qPUsFu8)
+        
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Talks</span> «Las matemáticas son las madres» at Colegio de España (Paris, France) <mark>2017</mark>
+
+  - title: Mentions in media (apariciones en medios)
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of mentions in media:
+      - <span style="background-color: #CC3860; color: #FFFFFF">Written Press</span> «Ni gatos ni pasteles: el anestesista y el matemático que arrasan en redes porque ayudan a entender la pandemia» by 
+      Isabel Valdés. El País <mark>2021</mark> [LINK](https://elpais.com/espana/madrid/2021-08-09/ni-gatos-ni-pasteles-el-anestesista-y-el-matematico-que-arrasan-en-redes-porque-ayudan-a-entender-la-pandemia.html)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Written Press</span> «El nuevo modelo para aplicar cierres busca anticiparse y evitar la saturación hospitalaria. 
+      Javier Álvarez Liébana, matemático, colabora con la Consejería de Salud de Asturias» by 
+      Laura Mayordomo. El Comercio <mark>2021</mark> [LINK](https://www.elcomercio.es/asturias/nuevo-modelo-aplicar-cierres-anticiparse-evitar-saturacion-hospitalaria-20210121000636-ntvo.html)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Written Press</span> «Cinco indicadores que permiten vislumbrar (con cautela) el final de la pandemia en España» by 
+      Mónica Zas. eldiario.es <mark>2021</mark> [LINK](https://www.eldiario.es/sociedad/cinco-indicadores-permiten-vislumbrar-cautela-final-pandemia-espana_1_7966297.html)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Written Press</span> «Enganchados al Excel: cómo su (mal) uso está alimentando el caos en los datos del covid» by 
+      Guillermo Cid. El Confidencial <mark>2020</mark> [LINK](https://www.elconfidencial.com/tecnologia/2020-10-28/excel-coronavirus-covid-datos-caos-programa_2808600/)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Written Press</span> «James Rhodes se convierte en el amigo invisible de un 'científico precario' madrileño» by 
+      Héctor Llanos. El País (Verne) <mark>2019</mark> [LINK](https://verne.elpais.com/verne/2019/12/20/articulo/1576858095_240776.html)
+      
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Radio</span> «Modelos matemáticos sobre el coronavirus». RNE <mark>2020</mark> 
+        [LINK](https://www.rtve.es/play/audios/raiz-de-5/raiz-5-modelos-matematicos-sobre-coronavirus-javier-alvarez-liebana-30-03-20/5548324/)
+      
+      - <span style="background-color: #3A81B9; color: #FFFFFF">TV</span> «En EUROPA las ALERTAS frente al COVID-19 son mucho más EXIGENTES que en ESPAÑA». RTVE 
+        <mark>2020</mark>. [LINK](https://www.youtube.com/watch?v=LRC2PN2Wido)
+      
+      [List of mentions, colaborations and interviews](https://dadosdelaplace.notion.site/e19a48b8f988404590a2a49e21dd7893?v=2a43e759ceb24c8bba12eb7613d8e680)
+
+        
+  - title: Seminars, courses and teaching materials (cursos, seminarios impartidos y material docente)
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of seminars and courses in which I have participated
+      - <span style="background-color: #CC3860; color: #FFFFFF">Course</span> «Aprendiendo R sin morir en el intento» (introductory online course of R programming) 
+       <mark>2021</mark> [LINK COURSE](https://aprendiendo-r-intro.netlify.app/)
+      - <span style="background-color: #CC3860; color: #FFFFFF">Course</span> «Introducción a la programación en R y visualización de datos» 
+        (introductory course of R programming and dataviz) organised by University of Extremadura (Online) <mark>2021</mark>
+      - <span style="background-color: #CC3860; color: #FFFFFF">Course</span> «Taller de Latex» organised by University of Granada (Granada, Spain) <mark>2017</mark>
+      
+      - <span style="background-color: #3A81B9; color: #FFFFFF">Tutorial</span> «Tutorial para la visualización de datos electorales en mapas en R»  
+        (dataviz) <mark>2021</mark> [LINK TUTORIAL](https://www.dadosdelaplace.com/post/tutorial-mapas-r-cartas-laplace-3/) 
+        [LINK COURSE](https://cartasdelaplace.substack.com/p/carta-3)
+        
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Seminar</span> «A journey through Functional Data Analysis» organised by ICMAT (CSIC, Madrid, Spain) 
+        <mark>2019</mark>
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Seminar</span> «Un paseo por las series temporales funcionales» organised by 
+        University of Oviedo (Oviedo, Spain) <mark>2018</mark>
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Seminar</span> «Breve introducción a las series temporales aplicadas a los datos funcionales» organised by 
+        University of Santiago de Compostela (Santiago de Compostela, Spain) <mark>2018</mark>
+      - <span style="background-color: #3D7E58; color: #FFFFFF">Seminar</span> «Machine Learning: supervised and non supervised learning» organised by IEMATH-GR 
+        (University of Granada, Spain) <mark>2016</mark>
+     
+  - title: Education (educación reglada)
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Granada (Granada, Spain)
+        caption: 2014 - 2018
+        sub_title: PhD Thesis
+        quote: >
+          Cum Laude and International Mention
+        description: | # this will include new lines to allow paragraphs
+          <mark>PhD Thesis dissertation</mark> entitled «Inference on linear processes in Hilbert and Banach spaces: statistical analysis of high-dimensional data»
+            under the supervision of M. D. Ruiz-Medina
+      - layout: left
+        title: Universidad Complutense (Madrid, Spain)
+        caption: 2013 - 2014
+        sub_title: MSc Maths Engineering
+        quote: >
+          8.75 out of 10
+        description: | # this will include new lines to allow paragraphs
+          Main subjects: <mark>predictive models</mark>, scientific programming, <mark>stochastic simulation<mark>, finance, <mark>differential equations</mark>,
+          parallel computing, <mark>data mining and Machine Learning</mark>
+      - layout: left
+        title: Universidad Complutense (Madrid, Spain)
+        caption: 2007 - 2013
+        sub_title: BSc Mathematics
+        quote: >
+          7.15 out of 10
+        description: | # this will include new lines to allow paragraphs
+          During my time at BSc Mathematics I was studied in <mark>Bologna (Italy) as an Erasmus student</mark>. 
+
+  - title: Awards
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Grant <mark>Juan de la Cierva - Formación 2018</mark>, granted by Science Ministery of Spain (Ministerio de Ciencia e Innovación).
+      - <mark>Awarded by the Spanish Statistics and O.R. Society (SEIO)</mark> as participant for the «21th European Young Statisticians Meetings» (Belgrade, Serbia).
+      - <mark>PhD Thesis with honors (Cum Laude)</mark> and International Mention.
+      - <mark>Awarded by the Spanish Statistics and O.R. Society (SEIO)</mark> as participant for the «Regional workshop European Young Researchs» (París).
+      
+  - title: A little more about me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in research some of my other interests and hobbies are:
+      - Science communication ([newsletter](https://cartasdelaplace.substack.com))
+      - Dubbing
+      - Music
+      - [R programming](https://dadosdelaplace.com)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
